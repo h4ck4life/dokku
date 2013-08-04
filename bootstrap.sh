@@ -1,6 +1,6 @@
 set -e
 export DEBIAN_FRONTEND=noninteractive
-export DOKKU_REPO=${DOKKU_REPO:-"https://github.com/progrium/dokku.git"}
+export DOKKU_REPO=${DOKKU_REPO:-"https://github.com/h4ck4life/dokku.git"}
 
 apt-get update
 apt-get install -y git make curl
